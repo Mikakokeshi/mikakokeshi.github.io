@@ -23,13 +23,13 @@ html {
 }
 
 .header-right ul a {
-  font-size: 17px;
+  font-size: 15px;
   color: #828282;
+  letter-spacing: 4px;
+  position: absolute;
+  top:20px;
+  right: 30px;
   text-decoration: none;
-  padding-right: 7px;
-  margin :0 auto;
-  float:right;
-  line-height: 8px;
 }
 
 span {

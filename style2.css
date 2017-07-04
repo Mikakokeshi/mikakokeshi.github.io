@@ -12,15 +12,16 @@ html {
 }
 
 .header-left a.h1, .header-left a {
-  font-size: 15px;
-  color: #828282;
-  letter-spacing: 4px;
   position: absolute;
   top:20px;
-  right: 30px;
+  left: 20px;
+  font-size: 15px;
+  color: #828282;
+  font-family: 'Playfair Display SC', serif;
+  letter-spacing: 2px;
   text-decoration: none;
 }
-.header-right ul a {
+.header-right a {
   font-size: 15px;
   color: #828282;
   letter-spacing: 4px;

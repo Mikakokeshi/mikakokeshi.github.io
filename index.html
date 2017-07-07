@@ -23,7 +23,7 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
   <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <script>
-    $(document).on('click', 'a', function(event) {
+    $(document).on('click', 'a.menu', function(event) {
       event.preventDefault();
 
       $('html, body').animate({
@@ -167,12 +167,12 @@
           <!-- プロフィール -->
 
           <ul class="nav navbar-nav" style="display:inline-block;">
-            <li><a href="#about">About me</a></li>
-            <li><a href="#skills">Skills</a></li>
-            <li><a href="#portfolio">Portfolio</a></li>
-            <li><a href="#history">History</a></li>
-            <li><a href="http://mikakokeshi.hatenablog.com/">Blog</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about" class="menu">About me</a></li>
+            <li><a href="#skills" class="menu">Skills</a></li>
+            <li><a href="#portfolio" class="menu">Portfolio</a></li>
+            <li><a href="#history" class="menu">History</a></li>
+            <li><a href="http://mikakokeshi.hatenablog.com/" class="menu">Blog</a></li>
+            <li><a href="#contact" class="menu">Contact</a></li>
           </ul>
         </div>
         <!-- /.container-fluid -->

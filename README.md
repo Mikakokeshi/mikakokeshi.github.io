@@ -1,9 +1,7 @@
 # My Personal Portfolio
-
-Click　→　https://mikakokeshi.github.io/
-
 I released 7/7/2017. Still editing.
 
+[![N|Solid](picture/Capture.PNG)](https://mikakokeshi.github.io/)
 
 
  Styling & Design
@@ -13,7 +11,7 @@ I released 7/7/2017. Still editing.
   - Figma
 
 　Plan
-　‐　I'm planning to add Blog.
+　‐ I'm planning to add Blog.
   　
   
   

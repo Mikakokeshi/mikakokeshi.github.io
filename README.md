@@ -9,9 +9,9 @@ I released 7/7/2017. Still editing.
   - CSS
   - Bootstrap
   - Figma
-
-　Plan
-　‐ I'm planning to add Blog.
+ 
+  Plan
+  - I'm planning to add Blog.
   　
   
   

@@ -252,8 +252,6 @@ img.portfolio{
 
 
 
-
-
 form{
   max-width: 450px;
   margin: 0 auto 50px;
@@ -264,7 +262,6 @@ form{
     float: left;
     padding-right: 10px;
     +box-sizing: (border-box);
-    margin-right: 2%;
   }
 
 

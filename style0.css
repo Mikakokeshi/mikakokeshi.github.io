@@ -161,34 +161,21 @@ section h2 {
 
 
 
-img.vivixx2	{
+img.vivixx2,img.vivixx3,img.vivixx4	{
 	margin-bottom: 20px;
 	width:20%;
 	height:auto;
 	opacity: 0.9;
-	padding-right:10px;
-}
-img.vivixx3	{
-	margin-bottom: 20px;
-	width:20%;
-	height:auto;
-	opacity: 0.9;
-	padding-right:10px;
-}
-img.vivixx4	{
-	margin-bottom: 20px;
-	width:20%;
-	height:auto;
-	opacity: 0.9;
-	padding-right:10px;
+	padding-right:20px;
+  border-radius:2%;
 }
 
 
 img.logo-skill	{
 	margin-top:30px;
-	width:8%;
-	height:auto;
-	padding-right:4px;
+	width:50px;
+	height:50px;
+	padding-right:10px;
 	opacity: 0.4;
 }
 
@@ -234,10 +221,17 @@ img.self-img {
 }
 
 img.portfolio{
-	max-width: 35%;
-  height: auto;
+	max-width: 300px;
+  height: 150px;
   margin-top: 5px;
   margin-bottom: 50px;
+  border-radius:2%;
+  padding-right: 20px;
+}
+
+.portfolio{
+  width:70%;
+  margin: 0 auto;
 }
 
 #bio-script a span {
@@ -252,9 +246,12 @@ img.portfolio{
 }
 
 
+#contact{
+    padding:10px;
+}
 
 form{
-  max-width: 450px;
+  max-width: 400px;
   margin: 0 auto 50px;
   display: grid;
   }
@@ -268,7 +265,7 @@ form{
 
   label{
     display: block;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
     font-family:serif;
   }
 
@@ -279,10 +276,16 @@ span.contact{
 }
 
 input , textarea{
-  border: 1.2px solid #e1c184;
-  outline:none;
+  border: 2px solid #e1c184;
   width: 100%;
+
+  &:focus {
+    outline:none;
+    border-color:red;
+  }
 }
+
+
 
 [type="submit"]{
   background-color: #e1c184;
@@ -293,6 +296,9 @@ input , textarea{
   height:35px;
 }
 
+.submit{
+  margin-top: 10px;
+}
 
 textarea{
   height:10em;

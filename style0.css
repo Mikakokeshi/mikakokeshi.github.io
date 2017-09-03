@@ -257,6 +257,20 @@ img.portfolio{
   color: black;
 }
 
+form{
+  max-width: 450px;
+  margin: 0 auto 50px;
+  }
+
+  label{
+    display: block;
+    margin-bottom: 20px;
+  }
+
+span.contact{
+  display: block;
+}
+
 footer {
     display: inline-block;
 		text-align: center;

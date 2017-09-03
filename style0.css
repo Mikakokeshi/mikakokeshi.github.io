@@ -250,17 +250,17 @@ img.portfolio{
   box-sizing: border-box;
 }
 
-#contact {
-	padding-top: 50px;
-  text-align: center;
-	font-family: 'Cinzel', serif;
-  color: black;
-}
 
 form{
   max-width: 450px;
   margin: 0 auto 50px;
   }
+
+  .contact-info-group label{
+    width:48%;
+    margin-right: 2%;
+  }
+
 
   label{
     display: block;

@@ -202,7 +202,7 @@ img.logo-skill	{
   opacity: 0.8;
 }
 
-#history h1 ,#skills h1,#portfolio h1,#contact h1{
+#history h1, #skills h1, #portfolio h1, #contact h1{
 	font-family: 'Cinzel', serif;
   color: black;
   text-shadow: 0 0 8px rgba(0, 0, 0, .4);

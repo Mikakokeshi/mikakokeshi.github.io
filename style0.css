@@ -257,7 +257,10 @@ form{
   }
 
   .contact-info-group label{
-    width:48%;
+    width:50%;
+    float: left;
+    padding-right: 10px;
+    +box-sizing: (border-box);
     margin-right: 2%;
   }
 
@@ -273,6 +276,7 @@ span.contact{
 
 input , textarea{
   border: 3px solid $accent;
+  width: 100%;
 
 }
 footer {

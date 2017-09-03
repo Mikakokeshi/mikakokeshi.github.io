@@ -162,24 +162,24 @@ section h2 {
 
 img.vivixx2	{
 	margin-bottom: 20px;
-	width:25%;
+	width:20%;
 	height:auto;
 	opacity: 0.9;
-	padding-right:30px;
+	padding-right:10px;
 }
 img.vivixx3	{
 	margin-bottom: 20px;
-	width:25%;
+	width:20%;
 	height:auto;
 	opacity: 0.9;
-	padding-right:20px;
+	padding-right:10px;
 }
 img.vivixx4	{
 	margin-bottom: 20px;
-	width:25%;
+	width:20%;
 	height:auto;
 	opacity: 0.9;
-	padding-right:20px;
+	padding-right:10px;
 }
 
 
@@ -264,7 +264,6 @@ footer {
 		color:white;
 		padding:16px;
     font-size: 15px;
-		position: fixed;
 		width: 100%;
 		bottom: 0;
 		z-index: 2;

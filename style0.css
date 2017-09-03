@@ -255,6 +255,7 @@ img.portfolio{
 form{
   max-width: 450px;
   margin: 0 auto 50px;
+  display: grid;
   }
 
   .contact-info-group label{
@@ -277,8 +278,12 @@ span.contact{
 input , textarea{
   border: 3px solid $accent;
   width: 100%;
-
 }
+
+textarea{
+  height:10em;
+}
+
 footer {
     display: inline-block;
 		text-align: center;

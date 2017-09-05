@@ -166,7 +166,7 @@ img.vivixx2,img.vivixx3,img.vivixx4	{
 	width:230px;
 	height:auto;
 	opacity: 0.9;
-	padding-right:30px;
+	padding:0 10px;
   border-radius:2%;
 }
 
@@ -223,9 +223,9 @@ img.self-img {
 img.portfolio{
 	max-width: 265px;
   margin-top: 5px;
-  margin-bottom: 50px;
+  margin-bottom: 30px;
   border-radius:2%;
-  padding-right: 20px;
+  padding:0 10px;
 }
 
 .portfolio{
